@@ -4,16 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OJT PROJECT</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(156, 237, 237);
+}
+
+/* NAVBAR */
+nav {
+    background-color: #1565c0;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e9f904;
+}
+
+/* MAIN CONTAINER */
+.login-container {
+    width: 400px;
+    padding: 45px;
+    margin: 150px auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* HEADING */
+.login-container h1 {
+    color: #1565c0;
+    font-size: 36px;
+    margin-bottom: 35px;
+    text-transform: capitalize;
+}
+
+/* BUTTONS */
+.login-container button {
+    width: 220px;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1565c0;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #62b0ef;
+}
+    </style>
 </head>
 <body>
     <nav>
+        <a href="index.html">Home</a>
         <a href="login.html">Login</a>
-        <a href="register.html">register</a>
-        <a href="forget.html">resetpass</a>
-        <a href="feedback.html">feedback</a>
+        <a href="register.html">Register</a>
+        <a href="forget.html">Resetpass</a>
+        <a href="feedback.html">Feedback</a>
     </nav>
     <div class="login-container">
-    <h1>college</h1>
+    <h1>College</h1>
     <div>
     <button
      onclick="window.location.href='register.html'">Registration
